@@ -1,11 +1,26 @@
-build/
-genequery-core/build/
-/src/
-*.iml
+# Hidden folders
+.idea/
+.gradle/
 
-!gradle-wrapper.jar
-# gradle/wrapper/gradle-wrapper.properties
-.gradle
-.idea/workspace.xml
-.idea/dictionaries/*
-.idea/libraries/*
+# Build folders
+build/
+out/
+target/
+
+# Project file, compiled bytecode, logs, archives, scripts
+*.iml
+*.class
+*.log
+*.txt
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
+*.sh
+*.bat
+*.py
+
+# Gradle
+!/gradle/wrapper/gradle-wrapper.jar
+!/gradlew.bat
